@@ -7,12 +7,10 @@ into the {body} of the default.hbs template --}}
         <div class="inner">
             {{> "site-nav"}}
             <div class="site-header-content">
-                <h1 class="site-title">
-                    <img class="site-logo" src="{{img_url @site.logo size="l"}}" alt="{{@site.title}}" />
-                    {{@site.title}}
-                </h1>
+                <img class="site-logo" src="{{img_url @site.logo size="l"}}" alt="{{@site.title}}" />
+                <h1 class="site-title">{{@site.title}}</h1>
                 <h2 class="site-description">{{@site.description}}</h2>
-            </div>
+            </div>1
         </div>
     </div>
 </header>
